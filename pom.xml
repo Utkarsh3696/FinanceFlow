@@ -19,7 +19,7 @@
     <url />
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version> <!-- Updated Java version -->
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
@@ -86,7 +86,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version> <!-- Updated version -->
+                <version>3.11.0</version> <!-- Ensure this version or later -->
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
